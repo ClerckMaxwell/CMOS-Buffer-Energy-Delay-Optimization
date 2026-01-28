@@ -46,8 +46,8 @@ The results demonstrate an excellent correlation between the analytical model an
 ---
 
 ## 📂 Repository Structure
-* `/simulations`: LTspice schematics (`.asc`) and technology model files.
-* `/docs`: Model
+* `/Spice Schematics & Model`: LTspice schematics (`.asc`) and technology model files.
+* `/Matlab_scripts`
 
 ## ⚙️ Tools
 * **LTspice**: Circuit simulation and parameter extraction.
