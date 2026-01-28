@@ -1,0 +1,147 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\raffy\Documents\LTSpice projects\low_p\prima_traccia\buffer\final_buff_test.asc
+Start Time: Tue Jan 13 16:16:42 2026
+solver = Normal
+Maximum thread count: 12
+
+
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+.step idx=1
+
+
+
+.step idx=2
+
+
+
+.step idx=3
+
+
+
+.step idx=4
+
+
+
+.step idx=5
+
+
+
+.step idx=6
+
+
+
+.step idx=7
+
+
+
+.step idx=8
+
+
+
+.step idx=9
+
+
+
+.step idx=10
+
+
+
+.step idx=11
+
+
+
+.step idx=12
+
+
+
+.step idx=13
+
+
+
+.step idx=14
+
+
+
+.step idx=15
+tnom = 27
+temp = 27
+method = modified trap
+.step idx=16
+
+
+Measurement: energia
+  step	INTEG(0.5*1*(abs(i(vdd1)*v(supply))-(i(vdd1)*v(supply))))	FROM	TO
+     1	5.85112e-14	3e-09	1.3e-08
+     2	5.84397e-14	3e-09	1.3e-08
+     3	5.84397e-14	3e-09	1.3e-08
+     4	5.84397e-14	3e-09	1.3e-08
+     5	5.84397e-14	3e-09	1.3e-08
+     6	5.85203e-14	3e-09	1.3e-08
+     7	5.85112e-14	3e-09	1.3e-08
+     8	4.7091e-14	3e-09	1.3e-08
+     9	4.34157e-14	3e-09	1.3e-08
+    10	4.15133e-14	3e-09	1.3e-08
+    11	4.02693e-14	3e-09	1.3e-08
+    12	3.93605e-14	3e-09	1.3e-08
+    13	3.86675e-14	3e-09	1.3e-08
+    14	3.81033e-14	3e-09	1.3e-08
+    15	3.76372e-14	3e-09	1.3e-08
+    16	3.72453e-14	3e-09	1.3e-08
+
+Measurement: ritardo_fall
+  step	ritardo_fall	FROM	TO
+     1	1.62904e-10	5.005e-09	5.1679e-09
+     2	1.62894e-10	5.005e-09	5.16789e-09
+     3	1.62894e-10	5.005e-09	5.16789e-09
+     4	1.62894e-10	5.005e-09	5.16789e-09
+     5	1.62894e-10	5.005e-09	5.16789e-09
+     6	1.62913e-10	5.005e-09	5.16791e-09
+     7	1.62904e-10	5.005e-09	5.1679e-09
+     8	1.64944e-10	5.005e-09	5.16994e-09
+     9	1.71751e-10	5.005e-09	5.17675e-09
+    10	1.79064e-10	5.005e-09	5.18406e-09
+    11	1.87507e-10	5.005e-09	5.19251e-09
+    12	1.95926e-10	5.005e-09	5.20093e-09
+    13	2.04003e-10	5.005e-09	5.209e-09
+    14	2.13087e-10	5.005e-09	5.21809e-09
+    15	2.21961e-10	5.005e-09	5.22696e-09
+    16	2.3086e-10	5.005e-09	5.23586e-09
+
+Measurement: rise_time
+  step	rise_time	FROM	TO
+     1	1.61642e-10	1.0015e-08	1.01766e-08
+     2	1.61633e-10	1.0015e-08	1.01766e-08
+     3	1.61633e-10	1.0015e-08	1.01766e-08
+     4	1.61633e-10	1.0015e-08	1.01766e-08
+     5	1.61633e-10	1.0015e-08	1.01766e-08
+     6	1.61645e-10	1.0015e-08	1.01766e-08
+     7	1.61642e-10	1.0015e-08	1.01766e-08
+     8	1.65216e-10	1.0015e-08	1.01802e-08
+     9	1.72811e-10	1.0015e-08	1.01878e-08
+    10	1.81438e-10	1.0015e-08	1.01964e-08
+    11	1.90125e-10	1.0015e-08	1.02051e-08
+    12	1.99471e-10	1.0015e-08	1.02145e-08
+    13	2.08922e-10	1.0015e-08	1.02239e-08
+    14	2.18213e-10	1.0015e-08	1.02332e-08
+    15	2.28322e-10	1.0015e-08	1.02433e-08
+    16	2.38102e-10	1.0015e-08	1.02531e-08
+
+Total elapsed time: 0.894 seconds.
+
